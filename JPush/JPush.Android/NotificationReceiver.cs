@@ -29,6 +29,7 @@ namespace JPush.Droid
             {
                 //Only call when first launch, get the registrationID
                 string regID = JPushInterface.GetRegistrationID(context);
+                System.Console.WriteLine("Device ID:" + regID);
             }
 
         }
